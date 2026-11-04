@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "version": "V-2.35",
+  "release": "V-2.35-e8a4e97078db",
+  "pages": {
+    "index": "index.pa2.18.94eae5f7e26c.html",
+    "masivos": "masivos.pa2.18.94eae5f7e26c.html",
+    "repeat60": "repeat60.pa2.18.94eae5f7e26c.html",
+    "operacion-diaria": "operacion-diaria.pa2.18.94eae5f7e26c.html"
+  },
+  "blockedModules": [
+    "operacion-diaria",
+    "atenuados"
+  ]
+}

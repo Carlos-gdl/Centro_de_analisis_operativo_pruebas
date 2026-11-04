@@ -1,0 +1,6 @@
+/* V-2.10.1: presentación exclusiva Planta Externa. */
+#plantModule .pe2101-brand{display:flex;align-items:center;gap:16px}
+#plantModule header .pe2101-logo{display:block;width:56px;height:66px;min-width:56px;flex:0 0 56px}
+#plantModule .pe2101-brand h1{margin:0 0 5px}
+#plantModule #clusterBack,#plantModule #causeBack{display:inline-block;white-space:nowrap}
+#plantModule #clusterBack:disabled,#plantModule #causeBack:disabled{opacity:.45;cursor:default}

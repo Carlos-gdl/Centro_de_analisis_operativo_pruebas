@@ -1,0 +1,4 @@
+(()=>{'use strict';const clean=document.getElementById('rc34-tab'),view=document.getElementById('rc34-view'),rank=document.getElementById('rankContent'),secondary=document.querySelector('.secondaryRanking'),tabs=document.querySelector('.rankings>.tabs');
+function show(on){view.hidden=!on;rank.hidden=on;if(secondary)secondary.hidden=on;clean.classList.toggle('active',on);clean.setAttribute('aria-pressed',String(on));if(on)tabs.querySelectorAll('[data-tab]').forEach(b=>b.classList.remove('active'))}
+clean.onclick=()=>show(true);tabs.addEventListener('click',e=>{if(e.target.closest('[data-tab]'))show(false)});
+})();
